@@ -5,6 +5,9 @@ background-color: #FFFFFF;
 }
 ul {
 list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 }
 a {
 text-decoration: none;
@@ -67,6 +70,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+margin-bottom: 48px;
 }
 .button-service {
 font-weight: 500;
@@ -75,6 +79,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #4d5ae5;
 color: #ffffff;
+
 }
 .button-service:hover,
 .button-service:focus {
@@ -162,3 +167,109 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
+
+h1,h2,h3,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.header-box {
+    width: 1440px;
+    height: 72px;
+}
+.container-menu {
+    display: flex;
+}
+.logo {
+    padding: 24px 76px 156px;
+}
+.page-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-top: 24px;
+}
+.contacts-box {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    padding-top: 24px;
+    padding-left: 332px;
+}
+.contacts-box .contact-item {
+    width: calc((100%-40px)/2);
+    flex-shrink: 0;
+}
+.title-hero {
+    display: flex;
+
+}
+.title {
+    justify-content: center;
+    width: 496px;
+    margin: 188px 472px 292px;
+    flex-shrink: 0;
+}
+.hero-button {
+    display: block;
+    margin: 0; auto;
+}
+.button-service {
+    padding: 16px 32px;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: none;
+}
+
+.benefits-list {
+    display: flex;
+
+}
+.benefits-list-item {
+    padding: 120px 24px;
+}
+.text-benefits {
+    width: 264px;
+}
+.title-team {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+.title-avatar {
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+.text-avatar {
+
+}
+.our-portfolio-page {
+    display: flex;
+}
+.portfolio-list {
+    display: flex;
+    flex-shrink: 0;
+    gap: 24px;
+    /* flex-wrap: wrap; */
+}
+

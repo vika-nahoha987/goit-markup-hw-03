@@ -176,7 +176,7 @@ h1,h2,h3,p {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
+    
 }
 img {
     display: block;
@@ -223,12 +223,15 @@ img {
 .title {
     justify-content: center;
     width: 496px;
-    margin: 188px 472px 292px;
+    /* margin: 188px 472px 292px; */
+    margin-left: auto;
+    margin-right: auto;
     flex-shrink: 0;
 }
 .hero-button {
-    display: block;
-    margin: 0; auto;
+    /* display: block; */
+    display: flex;
+    margin: auto; 
 }
 .button-service {
     padding: 16px 32px;
@@ -256,20 +259,60 @@ img {
     display: flex;
     gap: 24px;
 }
+.section-team-list {
+    margin-bottom: 120px;
+}
 .title-avatar {
     padding-top: 32px;
     padding-bottom: 8px;
 }
 .text-avatar {
-
+    padding-bottom: 32px;
 }
 .our-portfolio-page {
     display: flex;
 }
+.title-portfolio {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
 .portfolio-list {
     display: flex;
     flex-shrink: 0;
-    gap: 24px;
-    /* flex-wrap: wrap; */
+    gap: 48px 24px;
+    /* column-gap: 48px; */
+    /* width: calc((100% - 2 * 24px) / 3); */
+    flex-wrap: wrap;
 }
-
+.portfolio-item {
+    /* border: solid 1px; */
+}
+.title-images {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+.text-images {
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+.footer-box {
+    margin-top: 120px;
+    padding-top: 100px;
+}
+.container {
+}
+.logo-footer {
+    padding-top: 100px;
+    /* padding-bottom: 16px; */
+    padding-left: 156px;    
+}
+.logo-word-footer {
+    
+}
+.text-footer {
+    width: 264px;
+    padding-top: 16px;
+    /* padding-bottom: 100px; */
+    padding-left: 156px;
+}

@@ -191,12 +191,13 @@ img {
     display: flex;
 }
 .logo {
-    padding: 24px 76px 156px;
+    /* padding: 24px 76px 156px; */
+    margin-right: 76px;
 }
 .page-nav {
-    display: flex;
+    /* display: flex; */
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: center;
 }
 .menu {
     display: flex;
@@ -204,6 +205,7 @@ img {
     justify-content: flex-start;
     align-items: stretch;
     padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contacts-box {
     display: flex;

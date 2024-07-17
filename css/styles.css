@@ -183,6 +183,8 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* ---Header--- */
 .header-box {
     width: 1440px;
     height: 72px;
@@ -218,6 +220,8 @@ img {
     /* width: calc((100%-40px)/2); */
     flex-shrink: 0;
 }
+
+/* ---1 section */
 .title-hero {
     display: flex;
     padding: 188px 0 188px;
@@ -243,6 +247,7 @@ img {
     border: none;
 }
 
+/* ---2 section--- */
 .benefits-page {
     padding: 120px 0 120px;
 }
@@ -275,6 +280,7 @@ img {
 .text-benefits {
     
 }
+
 /* ----3 section---- */
 .our-team-page {
     padding: 120px 0 120px;
@@ -290,64 +296,60 @@ img {
 .team-list-item {
     margin-bottom: 120px;
     flex-basis: calc((100% - 3 * 24px) / 4);
-    border-top-left-radius: 0px; 
-    border-top-right-radius: 0px ; 
-    border-top-right-radius: 4px; 
-    border-bottom-left-radius:4px;
+    border-radius: 0 0 4px 4px;
+}
+.avatar-information {
+   padding: 32px 0 32px; 
 }
 .title-avatar {
-    padding-top: 32px;
-    padding-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .text-avatar {
-    padding-bottom: 32px;
+    text-align: center;
 }
 
 /* ---4 section--- */
 .our-portfolio-page {
-    display: flex;
+    /* display: flex; */
+    padding: 120px 0 120px 0;
 }
 .title-portfolio {
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
     flex-shrink: 0;
-    gap: 48px 24px;
-    /* column-gap: 48px; */
-    /* width: calc((100% - 2 * 24px) / 3); */
+    row-gap: 48px;
+    column-gap: 24px;
     flex-wrap: wrap;
 }
 .portfolio-item {
-    /* border: solid 1px; */
+    flex-basis: calc((100 - 2 * 24px) / 3);
+}
+.app-information {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .title-images {
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
+    margin-bottom: 8px;
 }
 .text-images {
-    padding-bottom: 32px;
-    padding-left: 16px;
+
 }
+
+/* ---Footer--- */
 .footer-box {
-    margin-top: 120px;
-    padding-top: 100px;
-}
-.container {
+    padding: 100px 0 100px;
 }
 .logo-footer {
-    padding-top: 100px;
-    /* padding-bottom: 16px; */
-    padding-left: 156px;    
+    display: inline-block;
+    margin-bottom: 16px;  
 }
 .logo-word-footer {
     
 }
 .text-footer {
-    width: 264px;
-    padding-top: 16px;
-    /* padding-bottom: 100px; */
-    padding-left: 156px;
+   max-width: 264px;
 }

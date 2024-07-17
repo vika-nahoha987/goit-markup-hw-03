@@ -207,6 +207,9 @@ img {
 .menu-item {
     padding: 24px 0 24px;
 }
+.link {
+    padding: 24px 0 24px;
+}
 .contacts-box {
     display: flex;
     gap: 40px;
@@ -279,7 +282,6 @@ img {
     padding: 120px 0 120px;
 }
 .title-team {
-    /* margin-top: 120px; */
     margin-bottom: 72px;
 }
 .our-team-list {
@@ -304,7 +306,6 @@ img {
 
 /* ---4 section--- */
 .our-portfolio-page {
-    /* display: flex; */
     padding: 120px 0 120px 0;
 }
 .title-portfolio {

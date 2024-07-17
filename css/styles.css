@@ -204,7 +204,7 @@ img {
     gap: 40px;
     justify-content: flex-start;
     align-items: stretch;
-    padding: 24px 0 24px auto;
+    padding: 24px 0 24px;
    
 }
 .contacts-box {
@@ -220,7 +220,7 @@ img {
 }
 .title-hero {
     display: flex;
-    padding: 188px 0 188px auto;
+    padding: 188px 0 188px;
 }
 .title {
     justify-content: center;
@@ -244,7 +244,7 @@ img {
 }
 
 .benefits-page {
-    padding: 120px 0 120px auto;
+    padding: 120px 0 120px;
 }
 .visually-hidden {
     position: absolute;
@@ -275,19 +275,25 @@ img {
 .text-benefits {
     
 }
+/* ----3 section---- */
 .our-team-page {
-    padding: 120px 0 120px auto;
+    padding: 120px 0 120px;
 }
 .title-team {
-    padding-top: 120px;
-    padding-bottom: 72px;
+    /* margin-top: 120px; */
+    margin-bottom: 72px;
 }
 .our-team-list {
     display: flex;
     gap: 24px;
 }
-.section-team-list {
+.team-list-item {
     margin-bottom: 120px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px ; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius:4px;
 }
 .title-avatar {
     padding-top: 32px;
@@ -296,6 +302,8 @@ img {
 .text-avatar {
     padding-bottom: 32px;
 }
+
+/* ---4 section--- */
 .our-portfolio-page {
     display: flex;
 }
